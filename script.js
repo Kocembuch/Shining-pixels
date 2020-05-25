@@ -12,7 +12,6 @@ function changePixel() {
     pixelsOdd[pixelOdd].classList.toggle("pixelAnimated2");
 
     setTimeout(() => {
-        console.log('działą');
         pixels[pixel].classList.toggle("pixelAnimated");
         pixelsOdd[pixelOdd].classList.toggle("pixelAnimated2");
     }, 1500)
